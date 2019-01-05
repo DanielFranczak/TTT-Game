@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: #52a79b;
+}
+header{
+    text-align: center;
+    margin: 50px;
+}
+
+#head{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+h1#result{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom:30px
+}
+canvas{
+    border: 1px solid;
+    background-color: #5296a7;
+    text-align: center;
+
+}
+#game {
+    position: relative;
+    width: 640px;
+    height: 320px;
+    margin: 0 auto;
+}
+#matrix{
+    position: relative;
+    margin: 0 auto;
+    width: 318px;
+    height: 318px;
+    display: inline-block;
+    /* float: none; */
+}
+#rules {
+    position: relative;
+    width: 318px;
+    height: 318px;
+    text-align: justify;
+    display: inline-block;
+}
+p {
+    font-size: 26px;
+    margin: 15px;
+    color: #000000;
+}
+h2 {
+    font-size: 35px;
+    text-align: center;
+}
+button#new{
+    color: #000000;
+    font-size: 30px;
+    width: 300px;
+    height: 45px;
+    background-color:#5296a7;
+    border: 1px solid #000000;
+    margin: 5px 5px 5px 5px;
+
+}
+canvas:hover{
+    background-color: #5270a7;
+}
+button#new:hover{
+background-color: #5270a7;
+
+
+}
